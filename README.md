@@ -1,4 +1,4 @@
-# birdbox README
+# birdbox
 
 ## Introduction
 This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird ID Station using a Raspberry Pi.
@@ -15,9 +15,9 @@ This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird 
 
 ## Setup Steps
 1. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
-2. Connect the PoE adaptor to the Raspberry Pi.
-3. Install the fan on the Raspberry Pi.
-4. Mount the Raspberry Pi in the waterproof box.
+2. Install the fan on the Raspberry Pi.
+3. Mount the Raspberry Pi in the waterproof box.
+4. Connect the PoE adaptor to the Raspberry Pi.
 5. Connect cables to the Raspberry Pi and power it with a PoE Ethernet cable.
 
 ## Usage
