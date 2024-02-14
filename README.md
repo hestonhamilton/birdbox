@@ -13,12 +13,14 @@ This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird 
 - USB Microphone - [Example used in project](https://www.amazon.com/dp/B06XCKGLTP)
 - PoE to USB-C Adapter - [Example used in project](https://www.amazon.com/dp/B087F4QCTR)
 
-## Setup Steps
-1. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
-2. Install the fan on the Raspberry Pi.
-3. Mount the Raspberry Pi in the waterproof box.
-4. Connect the PoE adaptor to the Raspberry Pi.
-5. Connect cables to the Raspberry Pi and power it with a PoE Ethernet cable.
+## Setup Steps 
+1. Install the fan on the Raspberry Pi.
+2. Mount the Raspberry Pi in the waterproof box.
+3. Connect the PoE adaptor to the Raspberry Pi.
+4. Connect cables to the Raspberry Pi and power it with a PoE Ethernet cable.
+5. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+    - Due to https://github.com/mcguirepr89/BirdNET-Pi/issues/1055 "Raspberry Pi OS (Legacy, 64-bit) Lite" must be selected during imaging.
+
 
 ## Usage
 The system records and analyzes audio using BirdNET-Lite for bird identification and supports live streaming and BirdWeather integration.
