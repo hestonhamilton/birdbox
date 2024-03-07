@@ -10,7 +10,7 @@ The following materials are suggested for the BirdBox project:
 - **Raspberry Pi (4B/3B+/0W2):** [Approved Pi Resellers](https://www.raspberrypi.com/resellers/?q=)
 - **Waterproof Project Box:** [Example](https://www.amazon.com/dp/B085QCT543)
 - **MicroSD Card** (Not required if booting from SSD): [Example](https://www.amazon.com/dp/B09W9XYQCQ)
-- **SSD** (Optional, for additional storage or as primary boot drive)
+- **SSD** (Optional, for additional storage or as primary boot drive): [Example](https://www.amazon.com/dp/B01N5IB20Q)
 - **Heatsink with Fan:** [Example](https://www.amazon.com/dp/B07Z3Q417K)
 - **Waterproof/Outdoor Ethernet Connector:** [Example](https://www.amazon.com/dp/B07PH4GL2F)
 - **Waterproof/Outdoor USB 3.0 Cable:** [Example](https://www.amazon.com/dp/B079957VC3)
@@ -43,6 +43,9 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 17. Connect POE Ethernet to external port and wait for device to become available over SSH.
 18. Connect to the Pi using SSH credentials set during imaging
 19. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+	```bash
+	curl -s https://raw.githubusercontent.com/mcguirepr89/BirdNET-Pi/main/newinstaller.sh | bash
+ 	```
 
 ## Configuration Steps
 - Web UI settings
