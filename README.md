@@ -37,21 +37,22 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 		![pre_drill](birdbox/pre_drill.jpg)
 		![mark_holes](birdbox/mark_holes.jpg)
 7. Remove all hardware from the box.
-8. Drill or cut the holes for the USB and Ethernet adapters.
+8. Install the four included mounting braces on the back of the box.
+9. Drill or cut the holes for the USB and Ethernet adapters.
 	  *	Using a Forstner bit set for my hand drill I was easily able to cut appropriately sized holes.
-9. Install the external USB and Ethernet adapters, managing cables as needed.
+10. Install the external USB and Ethernet adapters, managing cables as needed.
 		![adapters_installed](birdbox/adapters_installed.jpg)
 		![external_ports](birdbox/external_ports.jpg)
-10. Install backplate into the box using provided screws.
-11. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
-12. Connect external ethernet adapter to the POE adapter.
-13. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
-14. Connect the external USB adapter's cable to the Pi.
+11. Install backplate into the box using provided screws.
+12. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
+13. Connect external ethernet adapter to the POE adapter.
+14. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
+15. Connect the external USB adapter's cable to the Pi.
 		![full_box](birdbox/full_box.jpg)
-15. Close and mount box somewhere you want to record birdsong and have access to POE.
-16. Connect POE Ethernet to external port and wait for device to become available over SSH.
-17. Connect to the Pi using SSH credentials set during imaging
-18. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+16. Close and mount box somewhere you want to record birdsong and have access to POE.
+17. Connect POE Ethernet to external port and wait for device to become available over SSH.
+18. Connect to the Pi using SSH credentials set during imaging
+19. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
 
 	**WARNING: I do not host the code below. Always verify external code before executing it.**
 
