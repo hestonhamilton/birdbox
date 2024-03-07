@@ -26,27 +26,31 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 	  *	**IMPORTANT NOTE:** "Raspberry Pi OS (Legacy, 64-bit) Lite" currently must be selected during imaging due to [Issue #1055](https://github.com/mcguirepr89/BirdNET-Pi/issues/1055). 
 	  *	This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible. 
 2. Install fans/heatsinks on the Raspberry Pi if using them.
-3. Plan your layout with all internal hardware and cables, marking positions where needed.
-	  *	Make sure to also mark positions for the external Ethernet and USB adapters now.
-		![Mark holes](birdbox/mark_holes.jpg)
-4. Mount the Raspberry Pi onto the backplate of the box.  
+3. Mount the Raspberry Pi onto the backplate of the box.  
 	  *	I found that the screws included with the standoffs for the heatsink fit neatly through the holes of the backplate when using a screwdriver or drill.
-		![Pi Position](birdbox/pi_position.jpg)
-5. Measure holes for the external USB and Ethernet adapters.
-6. Remove all hardware from the box.
-7. Drill or cut the holes for the USB and Ethernet adapters.
-8. Install the external USB and Ethernet adapters, managing cables as needed.
-9. Attach SSD to the backplate alongside Pi if using one.
-10. Connect SSD to the Pi using SATA to USB adapter.
-11. Place backplate into the box.
-12. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
-13. Connect external ethernet adapter to the POE adapter.
-14. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
-15. Connect the external USB adapter's cable to the Pi.
-16. Close and mount box somewhere you want to record birdsong and have access to POE.
-17. Connect POE Ethernet to external port and wait for device to become available over SSH.
-18. Connect to the Pi using SSH credentials set during imaging
-19. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+		![pi position](birdbox/pi_position.jpg)
+4. Attach SSD to the backplate alongside Pi if using one.
+5. Connect SSD to the Pi using SATA to USB adapter.
+6. Plan your layout with all internal hardware and cables, marking positions where needed.
+	  *	Make sure to also mark positions for the external Ethernet and USB adapters now.
+		![pre_drill](birdbox/pre_drill.jpg)
+		![mark_holes](birdbox/mark_holes.jpg)
+7. Remove all hardware from the box.
+8. Drill or cut the holes for the USB and Ethernet adapters.
+	  *	Using a Forstner bit set for my hand drill I was easily able to cut appropriately sized holes.
+9. Install the external USB and Ethernet adapters, managing cables as needed.
+		![adapters_installed](birdbox/adapters_installed.jpg)
+		![external_ports](birdbox/external_ports.jpg)
+10. Install backplate into the box using provided screws.
+11. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
+12. Connect external ethernet adapter to the POE adapter.
+13. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
+14. Connect the external USB adapter's cable to the Pi.
+		![full_box](birdbox/full_box.jpg)
+15. Close and mount box somewhere you want to record birdsong and have access to POE.
+16. Connect POE Ethernet to external port and wait for device to become available over SSH.
+17. Connect to the Pi using SSH credentials set during imaging
+18. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
 
 	**WARNING: I do not host the code below. Always verify external code before executing it.**
 
