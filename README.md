@@ -14,12 +14,26 @@ This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird 
 - PoE to USB-C Adapter - [Example used in project](https://www.amazon.com/dp/B087F4QCTR)
 
 ## Setup Steps 
-1. Install the fan on the Raspberry Pi.
-2. Mount the Raspberry Pi in the waterproof box.
-3. Connect the PoE adaptor to the Raspberry Pi.
-4. Connect cables to the Raspberry Pi and power it with a PoE Ethernet cable.
-5. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
-    - Due to https://github.com/mcguirepr89/BirdNET-Pi/issues/1055 "Raspberry Pi OS (Legacy, 64-bit) Lite" must be selected during imaging.
+1. Install compatible OS on the microSD card or other boot device. *WARNING:* Due to https://github.com/mcguirepr89/BirdNET-Pi/issues/1055 "Raspberry Pi OS (Legacy, 64-bit) Lite" must be selected during imaging.
+2. Install fans/heatsinks on the Raspberry Pi if using them.
+4. Mount the Raspberry Pi onto the backplate of the box.
+5. Plan your layout with all internal hardware and cables, marking positions where needed.
+6. Measure holes for the external USB and Ethernet adapters.
+7. Remove all hardware from the box.
+8. Drill or cut the holes for the USB and Ethernet adapters.
+9. Install the external USB and Ethernet adapters, managing USB cable as needed.
+10. Attach SSD to the backplate alongside Pi if using one.
+11. Connect SSD to the Pi using SATA to USB adapter.
+12. Place backplate into the box.
+13. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
+14. Connect external ethernet adapter to the POE adapter.
+15. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
+16. Connect the external USB adapter's cable to the Pi.
+17. Close and mount box somewhere you want to record birdsong and have access to POE.
+18. Connect POE Ethernet to external port and wait for device to become available over SSH.
+20. Connect to the Pi using SSH credentials set during imaging
+21. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+- Due to https://github.com/mcguirepr89/BirdNET-Pi/issues/1055 "Raspberry Pi OS (Legacy, 64-bit) Lite" must be selected during imaging.
 
 
 ## Usage
