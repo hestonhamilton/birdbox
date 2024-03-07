@@ -46,6 +46,7 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 19. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
 
 	*	**WARNING: I do not host the code below. Always verify external code before executing it.**
+
 	```bash
 	curl -s https://raw.githubusercontent.com/mcguirepr89/BirdNET-Pi/main/newinstaller.sh | bash
  	```
