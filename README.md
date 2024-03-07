@@ -56,7 +56,7 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 - DNS/hostname/Caddy
 - External access
   
-	Currently beyond the scope of this guide as tutorials for establishing external access to your BirdNET-Pi installation can be found in multiple locations such as the BirdNET-Pi repo [here](https://github.com/mcguirepr89/BirdNET-Pi/discussions/161).
+  	A guide on this subject can be found in the BirdNET-Pi repo [here](https://github.com/mcguirepr89/BirdNET-Pi/discussions/161).
 
 ## Usage
 This outdoor system records and analyzes bird sounds for species identification. 
