@@ -27,8 +27,11 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 	  *	This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible. 
 2. Install fans/heatsinks on the Raspberry Pi if using them.
 3. Plan your layout with all internal hardware and cables, marking positions where needed.
+	  *	Make sure to also mark positions for the external Ethernet and USB adapters now.
+		![Mark holes](birdbox/mark_holes.jpg)
 4. Mount the Raspberry Pi onto the backplate of the box.  
 	  *	I found that the screws included with the standoffs for the heatsink fit neatly through the holes of the backplate when using a screwdriver or drill.
+		![Pi Position](birdbox/pi_position.jpg)
 5. Measure holes for the external USB and Ethernet adapters.
 6. Remove all hardware from the box.
 7. Drill or cut the holes for the USB and Ethernet adapters.
