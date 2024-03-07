@@ -1,3 +1,4 @@
+
 # BirdBox: BirdNET Pi Real-Time Acoustic Bird ID Station Guide
 
 ## Introduction
@@ -21,26 +22,27 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 
 ## Setup Steps
 1. **Prepare Boot Device:** Install a compatible OS on the microSD card or SSD.  
-  *IMPORTANT NOTE:* Select "Raspberry Pi OS (Legacy, 64-bit) Lite" during imaging due to [Issue #1055](https://github.com/mcguirepr89/BirdNET-Pi/issues/1055).
-  This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible. 
+	  *	**IMPORTANT NOTE:** "Raspberry Pi OS (Legacy, 64-bit) Lite" currently must be selected during imaging due to [Issue #1055](https://github.com/mcguirepr89/BirdNET-Pi/issues/1055). 
+	  *	This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible. 
 2. Install fans/heatsinks on the Raspberry Pi if using them.
-4. Mount the Raspberry Pi onto the backplate of the box.
-5. Plan your layout with all internal hardware and cables, marking positions where needed.
-6. Measure holes for the external USB and Ethernet adapters.
-7. Remove all hardware from the box.
-8. Drill or cut the holes for the USB and Ethernet adapters.
-9. Install the external USB and Ethernet adapters, managing USB cable as needed.
-10. Attach SSD to the backplate alongside Pi if using one.
-11. Connect SSD to the Pi using SATA to USB adapter.
-12. Place backplate into the box.
-13. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
-14. Connect external ethernet adapter to the POE adapter.
-15. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
-16. Connect the external USB adapter's cable to the Pi.
-17. Close and mount box somewhere you want to record birdsong and have access to POE.
-18. Connect POE Ethernet to external port and wait for device to become available over SSH.
-20. Connect to the Pi using SSH credentials set during imaging
-21. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+3. Plan your layout with all internal hardware and cables, marking positions where needed.
+4. Mount the Raspberry Pi onto the backplate of the box.  
+	  *	I found that the screws included with the standoffs for the heatsink fit neatly through the holes of the backplate without needing additional drilling but feel free to widen with a drill if needed.
+5. Measure holes for the external USB and Ethernet adapters.
+6. Remove all hardware from the box.
+7. Drill or cut the holes for the USB and Ethernet adapters.
+8. Install the external USB and Ethernet adapters, managing cables as needed.
+9. Attach SSD to the backplate alongside Pi if using one.
+10. Connect SSD to the Pi using SATA to USB adapter.
+11. Place backplate into the box.
+12. Attach POE adaptor to side of box using double-sided tape or hook and loop tape.
+13. Connect external ethernet adapter to the POE adapter.
+14. Connect the PoE adapter's Ethernet and USB-C cables to the Raspberry Pi.
+15. Connect the external USB adapter's cable to the Pi.
+16. Close and mount box somewhere you want to record birdsong and have access to POE.
+17. Connect POE Ethernet to external port and wait for device to become available over SSH.
+18. Connect to the Pi using SSH credentials set during imaging
+19. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
 
 ## Configuration Steps
 - Web UI settings
@@ -49,7 +51,9 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 - External access
 
 ## Usage
-This outdoor system records and analyzes bird sounds for species identification. It supports live streaming and BirdWeather integration. 
+This outdoor system records and analyzes bird sounds for species identification. 
+It also supports live streaming, push notifications, and BirdWeather integration. 
+
 Refer to the installation guide for details on joining the BirdWeather network.
 
 ## Credits
