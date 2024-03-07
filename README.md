@@ -1,22 +1,28 @@
-# birdbox
+# BirdBox: BirdNET Pi Real-Time Acoustic Bird ID Station Guide
 
 ## Introduction
-This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird ID Station using a Raspberry Pi.
+Welcome to the BirdBox project! This guide is designed to assist you in building a real-time acoustic bird identification station using BirdNET Pi and a Raspberry Pi.
 
-## Materials
-- Raspberry Pi (4B/3B+/0W2) - [Search for approved Pi resellers here](https://www.raspberrypi.com/resellers/?q=)
-- Waterproof Project Box - [Example used in project](https://www.amazon.com/dp/B085QCT543)
-- MicroSD Card (The bigger the better if you intend to store bird recordings on it long-term) - [Example used in project](https://www.amazon.com/dp/B09W9XYQCQ)
-  OR/AND
-- SSD (Can either be used to supplement storage of recordings or as the primary boot drive replacing the microSD)
-- Heatsink with Fan - [Example used in project](https://www.amazon.com/dp/B07Z3Q417K)
-- Waterproof/Outdoor Ethernet Connector - [Example used in project](https://www.amazon.com/dp/B07PH4GL2F)
-- Waterproof/Outdoor USB 3.0 Cable - [Example used in project](https://www.amazon.com/dp/B079957VC3)
-- USB Microphone - [Example used in project](https://www.amazon.com/dp/B06XCKGLTP)
-- PoE to USB-C Adapter - [Example used in project](https://www.amazon.com/dp/B087F4QCTR)
+## Materials Required
+The following materials are suggested for the BirdBox project:
 
-## Setup Steps 
-1. Install compatible OS on the microSD card or other boot device. *WARNING:* Due to https://github.com/mcguirepr89/BirdNET-Pi/issues/1055 "Raspberry Pi OS (Legacy, 64-bit) Lite" must be selected during imaging.
+- **Raspberry Pi (4B/3B+/0W2):** [Approved Pi Resellers](https://www.raspberrypi.com/resellers/?q=)
+- **Waterproof Project Box:** [Example](https://www.amazon.com/dp/B085QCT543)
+- **MicroSD Card** (Not required if booting from SSD): [Example](https://www.amazon.com/dp/B09W9XYQCQ)
+- **SSD** (Optional, for additional storage or as primary boot drive)
+- **Heatsink with Fan:** [Example](https://www.amazon.com/dp/B07Z3Q417K)
+- **Waterproof/Outdoor Ethernet Connector:** [Example](https://www.amazon.com/dp/B07PH4GL2F)
+- **Waterproof/Outdoor USB 3.0 Cable:** [Example](https://www.amazon.com/dp/B079957VC3)
+- **USB Microphone:** [Example](https://www.amazon.com/dp/B06XCKGLTP)
+- **PoE to USB-C Adapter:** [Example](https://www.amazon.com/dp/B087F4QCTR)
+
+Other hardware configurations exist but supporting them is currently beyond the scope of this guide.
+I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-Pi) for information related to other configurations.
+
+## Setup Steps
+1. **Prepare Boot Device:** Install a compatible OS on the microSD card or SSD. 
+  *IMPORTANT NOTE:* Select "Raspberry Pi OS (Legacy, 64-bit) Lite" during imaging due to [Issue #1055](https://github.com/mcguirepr89/BirdNET-Pi/issues/1055).
+  This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible.
 2. Install fans/heatsinks on the Raspberry Pi if using them.
 4. Mount the Raspberry Pi onto the backplate of the box.
 5. Plan your layout with all internal hardware and cables, marking positions where needed.
@@ -35,12 +41,20 @@ This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird 
 18. Connect POE Ethernet to external port and wait for device to become available over SSH.
 20. Connect to the Pi using SSH credentials set during imaging
 21. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
-- Due to https://github.com/mcguirepr89/BirdNET-Pi/issues/1055 "Raspberry Pi OS (Legacy, 64-bit) Lite" must be selected during imaging.
 
+## Configuration Steps
+- Web UI settings
+- Backups
+- DNS/hostname/Caddy
+- External access
 
 ## Usage
-The system records and analyzes audio using BirdNET-Lite for bird identification and supports live streaming and BirdWeather integration.
-Instructions for requesting a BirdWeather ID to join the BirdWeather network can be found in the installation guide.
+This outdoor system records and analyzes bird sounds for species identification. It supports live streaming and BirdWeather integration. 
+Refer to the installation guide for details on joining the BirdWeather network.
 
-Credits for the original inspiration and source for this project go to this [PixCams article](https://pixcams.com/building-a-birdnet-pi-real-time-acoustic-bird-id-station/).
+## Credits
+This project was inspired by [PixCams](https://pixcams.com/building-a-birdnet-pi-real-time-acoustic-bird-id-station/). 
+Thank you to the wonderful people at [Cornell Labs](https://birdnet.cornell.edu/) for making BirdNET publicly available.
 Consider supporting BirdWeather by purchasing their official BirdWeather PUC [here](https://www.birdweather.com/).
+
+
