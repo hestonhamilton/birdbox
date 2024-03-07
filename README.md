@@ -6,7 +6,9 @@ This README provides guidance for building a BirdNET Pi Real-Time Acoustic Bird 
 ## Materials
 - Raspberry Pi (4B/3B+/0W2) - [Search for approved Pi resellers here](https://www.raspberrypi.com/resellers/?q=)
 - Waterproof Project Box - [Example used in project](https://www.amazon.com/dp/B085QCT543)
-- 64GB Micro SD Card - [Example used in project](https://www.amazon.com/dp/B09W9XYQCQ)
+- MicroSD Card (The bigger the better if you intend to store bird recordings on it long-term) - [Example used in project](https://www.amazon.com/dp/B09W9XYQCQ)
+  OR/AND
+- SSD (Can either be used to supplement storage of recordings or as the primary boot drive replacing the microSD)
 - Heatsink with Fan - [Example used in project](https://www.amazon.com/dp/B07Z3Q417K)
 - Waterproof/Outdoor Ethernet Connector - [Example used in project](https://www.amazon.com/dp/B07PH4GL2F)
 - Waterproof/Outdoor USB 3.0 Cable - [Example used in project](https://www.amazon.com/dp/B079957VC3)
