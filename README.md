@@ -20,9 +20,9 @@ Other hardware configurations exist but supporting them is currently beyond the 
 I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-Pi) for information related to other configurations.
 
 ## Setup Steps
-1. **Prepare Boot Device:** Install a compatible OS on the microSD card or SSD. 
-   *IMPORTANT NOTE:* Select "Raspberry Pi OS (Legacy, 64-bit) Lite" during imaging due to [Issue #1055](https://github.com/mcguirepr89/BirdNET-Pi/issues/1055).
-   This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible.
+1. **Prepare Boot Device:** Install a compatible OS on the microSD card or SSD.  
+  *IMPORTANT NOTE:* Select "Raspberry Pi OS (Legacy, 64-bit) Lite" during imaging due to [Issue #1055](https://github.com/mcguirepr89/BirdNET-Pi/issues/1055).
+  This image uses Debian 11 (bullseye), so other bullseye-based images may also be compatible. 
 2. Install fans/heatsinks on the Raspberry Pi if using them.
 4. Mount the Raspberry Pi onto the backplate of the box.
 5. Plan your layout with all internal hardware and cables, marking positions where needed.
