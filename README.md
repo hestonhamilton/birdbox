@@ -11,6 +11,7 @@ The following materials are suggested for the BirdBox project:
 - **Waterproof Project Box:** [Example](https://www.amazon.com/dp/B085QCT543)
 - **MicroSD Card** (Not required if booting from SSD): [Example](https://www.amazon.com/dp/B09W9XYQCQ)
 - **SSD** (Optional, for additional storage or as primary boot drive): [Example](https://www.amazon.com/dp/B01N5IB20Q)
+- **SATA to USB cable** (Only required if using SSD): [Example](https://amazon.com/dp/B011M8YACM)
 - **Heatsink with Fan:** [Example](https://www.amazon.com/dp/B07Z3Q417K)
 - **Waterproof/Outdoor Ethernet Connector:** [Example](https://www.amazon.com/dp/B07PH4GL2F)
 - **Waterproof/Outdoor USB 3.0 Cable:** [Example](https://www.amazon.com/dp/B079957VC3)
