@@ -63,23 +63,24 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 ## Configuration Steps
 - Web UI
   	*	Open either "${hostname}.local" or the IP address for your Pi in a browser within the same LAN.
-	*	Navigate to Tools >> Settings in the BirdNET-Pi UI.
-	  	*	**Model:** Strongly recommend "BirdNET_GLOBAL_6K_V2.4_Model_FP16" unless your device is unable to handle it.
-    		*	**Location and BirdWeather:** Set these parameters if you intend to share data publicly with BirdWeather.
-      		*	**Notifications:** Use Apprise to send detection notifications and/or weekly reports.
+	*	Navigate to **Tools >> Settings** in the BirdNET-Pi UI.
+		  *	**Model:** Strongly recommend "BirdNET_GLOBAL_6K_V2.4_Model_FP16" unless your device is unable to handle it.
+    	*	**Location and BirdWeather:** Set these parameters if you intend to share data publicly with BirdWeather.
+      	*	**Notifications:** Use Apprise to send detection notifications and/or weekly reports.
 		*	**Bird Photos from Flickr:** Necessary for photos to be associated with detections in the web UI and in push notifications.
-    				Instructions for acquiring a Flickr API key can be found [here](https://www.flickr.com/services/api/misc.api_keys.html)
+    				- Instructions for acquiring a Flickr API key can be found [here](https://www.flickr.com/services/api/misc.api_keys.html).
    		*	**Localization/Time and Date**: Ensure these sections are correct.
-     		*	Before leaving this page, make sure to click "Update Settings" at the bottom of the page to save your changes.
-     	*	Click "Advanced Settings" at the bottom of the page.
-      		*	**Privacy Threshold:** Start with 1% and move up as needed.
+     	*	**Before leaving the Settings page, make sure to click "Update Settings" at the bottom of the page to save your changes.**
+     
+	 *	Click **"Advanced Settings"** at the bottom of the page.
+      	*	**Privacy Threshold:** Start with 1% and move up as needed.
 		*	**Full Disk Behavior:** Make sure that "keep" is selected if you don't want data to be deleted when disk is full.
 		*	**Audio Settings:** Feel free to tweak recording length especially for performance reasons.
 		*	**BirdNET-Pi Password:** Very important whether you decide to expose your installation to the internet or not.
 		*	**Custom URL:** Used if you decide to expose your installation under a domain name.
 		*	**Options/Custom Image:** Small tweaks.
 		*	**BirdNET-Lite Settings:** Important for setting confidence values for detections. 
-  
+		*	**Before leaving the Advanced Settings page, make sure to click "Update Settings" at the bottom of the page to save your changes.**
 - DNS/hostname/Caddy
 - External access
   
