@@ -81,10 +81,12 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 		*	**Options/Custom Image:** Small tweaks.
 		*	**BirdNET-Lite Settings:** Important for setting confidence values for detections. 
 		*	**Before leaving the Advanced Settings page, make sure to click "Update Settings" at the bottom of the page to save your changes.**
-- DNS/hostname/Caddy
+- Caddy
+	*	BirdNET-Pi uses Caddy for its webserver. If you find you need to modify the server configuration directly for any reason, the config file is located at /etc/caddy/Caddyfile.
+ 	*	Official Caddy documentation can be found [here](https://caddyserver.com/docs/).	
 - External access
   
-  	A guide on this subject can be found in the BirdNET-Pi repo [here](https://github.com/mcguirepr89/BirdNET-Pi/discussions/161).
+  	*	A guide on this subject can be found in the BirdNET-Pi repo [here](https://github.com/mcguirepr89/BirdNET-Pi/discussions/161).
 
 ## Usage
 This outdoor system records and analyzes bird sounds for species identification. 
