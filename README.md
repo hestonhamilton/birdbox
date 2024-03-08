@@ -65,7 +65,7 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
   	*	Open either "${hostname}.local" or the IP address for your Pi in a browser within the same LAN.
 	*	Navigate to Tools >> Settings in the BirdNET-Pi UI.
 	  	*	**Model:** Strongly recommend "BirdNET_GLOBAL_6K_V2.4_Model_FP16" unless your device is unable to handle it.
-    		*	**Location and BirdWeather** Set these parameters if you intend to share data publicly with BirdWeather.
+    		*	**Location and BirdWeather:** Set these parameters if you intend to share data publicly with BirdWeather.
       		*	**Notifications:** Use Apprise to send detection notifications and/or weekly reports.
 		*	**Bird Photos from Flickr:** Necessary for photos to be associated with detections in the web UI and in push notifications.
     				Instructions for acquiring a Flickr API key can be found [here](https://www.flickr.com/services/api/misc.api_keys.html)
