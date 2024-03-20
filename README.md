@@ -50,6 +50,7 @@ I suggest checking the [BirdNET-Pi repo](https://github.com/mcguirepr89/BirdNET-
 15. Connect the external USB adapter's cable to the Pi.
 		![full_box](birdbox/full_box.jpg)
 16. Close and mount box somewhere you want to record birdsong and have access to POE.
+		![finished_setup](birdbox/finished_setup.jpg)
 17. Connect POE Ethernet to external port and wait for device to become available over SSH.
 18. Connect to the Pi using SSH credentials set during imaging
 19. Install BirdNET-Pi software on the micro SD card. Official installation guide [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
