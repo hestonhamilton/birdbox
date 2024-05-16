@@ -1,0 +1,9 @@
+# Add backup functionality to web UI
+# Build backup script first, then integrate
+
+# Utility to purge certain recordings
+# Should be able to whitelist/blacklist species to preserve all/none recordings
+# Have settings for % confidence, top # of recordings, etc. Should be set at species or overall level per user preference.
+
+# Integration with monitoring/alerting platforms
+# Nagios/Zabbix/Grafana/etc.
